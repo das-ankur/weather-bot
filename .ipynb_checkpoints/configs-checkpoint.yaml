@@ -1,4 +1,0 @@
-model: llama3.1-tool
-tool_schema: tool_schemas/weather.json
-max_conversation: 10
-max_token: 128000

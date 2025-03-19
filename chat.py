@@ -2,7 +2,6 @@
 import os
 from dotenv import load_dotenv
 load_dotenv()
-# os.environ['WEATHER_API_KEY'] = ""
 import json
 import yaml
 from custom_tools.weather import *

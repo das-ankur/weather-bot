@@ -7,3 +7,4 @@ langchain-community
 llama3.2-token-counter
 gradio
 fastapi
+python-dotenv
