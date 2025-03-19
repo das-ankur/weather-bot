@@ -1,0 +1,26 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "get_weather",
+            "description": "The function name can get the weather of a city but the city must exists on geographical map.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "type": "string",
+                        "description": "The name of the city given by user and which exists on geographical map."
+                    },
+                    "country": {
+                        "type": "string",
+                        "description": "Name of the country where the city exists. If the user doesn't provide the name of the country then use your own knowledge to get the country name. If the city exists in multiple countries ask the user to state the country name manually."
+                    }
+                },
+                "required": [
+                    "city",
+                    "country"
+                ]
+            }
+        }
+    }
+]

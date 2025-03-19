@@ -1,0 +1,9 @@
+requests
+cachetools
+geopy
+SQLAlchemy
+ollama
+langchain-community
+llama3.2-token-counter
+gradio
+fastapi
