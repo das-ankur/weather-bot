@@ -4,7 +4,7 @@
     <li>Create a virtaul environment with python >= 3.11</li>
     <li>Create a .env file with the API key for weatherstack(use "WEATHER_API_KEY" as key name)</li>
     <li>Install the requirements with <code>pip install -r requirements.txt</code></li>
-    <li>Execute <code>bash setup.sh</code> to setup the local LLM environment.</li>
+    <li>Execute <code>bash setup.sh</code> to setup the local LLM environment. sudo access is neede for the setup.</li>
     <li>To access it locally through frontend run the <file>app_local.ipynb</file></li>
     <li>To access the app through API run the <code>python app.py</code></li>
 </ul>
